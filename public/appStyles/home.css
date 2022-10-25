@@ -1,0 +1,129 @@
+.box{
+    border: 2px solid var(--color-4);
+    border-radius: 8px;
+    color: var(--color-6);
+    font-size: var(--font-size-6);
+}
+
+.box-l{
+    /* border: 2px solid #758BFD;
+    border-radius: 8px; */
+    color: var(--color-3);
+    font-size: var(--font-size-5);
+}
+
+.proper{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.custom-btn{
+    height: 50px;
+    width: 50%;
+    border-radius: 2px;
+    background: #aeb8fe;
+    margin-right: 12px;
+    box-shadow: 3px 5px 10px #ffbb0037;
+
+}
+.custom-btn:nth-child(2){
+    background: #f1f2f6;
+}
+
+.custom-btn:hover{
+    color: var(--color-6);
+    box-shadow: none;
+}
+
+.custom-btn:nth-child(2):hover{
+    color: var(--color-3);
+    box-shadow: none;
+}
+
+.adjust{
+    top: -20px;
+    left: 20px;
+}
+
+.labels{
+    height: 255px;
+    width: 100%;
+    border-radius: 10px;
+    background: var(--color-1);
+    box-shadow: 3px 5px 10px #1917168a;
+    transition: 0.3s;
+}
+
+.labels:hover{
+    box-shadow: none;
+}
+
+.avatar{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-top: -22px;
+    margin-left: 20px;
+    background: var(--color-8);
+}
+
+.see{
+    color: var(--color-3);
+    text-decoration: none;
+    transition: 0.3s;
+}
+.see:hover{
+    color: var(--color-8);
+}
+
+.round{
+    height: 68px;
+    width: 68px;
+    border-radius: 50%;
+    box-shadow: 3px 5px 10px #1917168a;
+    background: var(--color-1);
+    color: var(--color-6);
+    transition: 0.3s;
+}
+
+.round:hover{
+    background: var(--color-3);
+    color: var(--color-1);
+}
+
+
+
+.about-img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 3px 5px 10px #1917168a;
+    filter: brightness(30%);
+    object-fit: cover;
+}
+
+.caption{
+    top: 30%;
+    text-align: center;
+}
+
+.over-cap{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: var(--color-6);
+    -webkit-text-stroke-width: 1px;
+}
+
+.days{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 200px;
+}
+
+.day-hov{
+    background: var(--color-1);
+    color: var(--color-4);
+    width: 100%;
+    border-radius: 5px;
+}

@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+html,body{
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Nunito Sans', sans-serif; */
+}
+
+::-webkit-scrollbar{
+    visibility: hidden;
+    display: none;
+}
+
+:root {
+    /* ------------ FONTS ------------- */
+    --font-1: 'Montserrat', sans-serif;
+    --font-2: 'Nunito Sans', sans-serif;
+    --font-3: 'Josefin Sans', sans-serif;
+    --font-4: 'Alfa Slab One', cursive;
+    /* ------------ FONT SIZE ------------- */
+    --font-size-1: 1.5rem;
+    --font-size-2: 0.58rem;
+    --font-size-3: 0.8rem;
+    --font-size-4: 0.6rem;
+    --font-size-5: 1rem;
+    --font-size-6: 1.8rem;
+    --font-size-7: 2rem;
+    --font-size-8: 3rem;
+    --font-size-9: 4rem;
+    --font-size-10: 5rem;
+    --font-size-11: 6rem;
+    --font-size-12: 10rem;
+    --font-size-13: 13px;
+
+    /* ------------ COLORS ------------- */
+    --color-1: #191716;
+    --color-2: #3D348B;
+    --color-3: #FFC338;
+    --color-4: #BEB7A4;
+    --color-5: #E0E2DB;
+    --color-6: #FFFFFF;
+    --color-7: #5e71ff;
+    --color-8: #aeb8fe;
+    --color-9: #7b7052;
+}
+
+/* #pre-Loader{
+    background: white url('../webImages/loader.gif') no-repeat center center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+} */
+
+#bg-slide{
+    background: url('../appImages/slide-1.jpg');
+    /* filter: brightness(38%); */
+    height: 100vh;
+    background-size: cover;
+    /* object-fit: cover; */
+    height: 60%;
+}
+
+.anchor {
+    text-decoration: none;
+    color: unset;
+    transition: 0.3s;
+}
+
+.size-2{
+    font-size: var(--font-size-5);
+}
+
+.size-3{
+    font-size: var(--font-size-1);
+}
+.size-4{
+    font-size: var(--font-size-3);
+}
+.size-5{
+    font-size: var(--font-size-4);
+}
+.size-6{
+    font-size: var(--font-size-13);
+}
+.color-a{
+    color: var(--color-6);
+}
+
+.color-b{
+    color: var(--color-1);
+}
+
+.color-c{
+    color: var(--color-4);
+}
+.color-d{
+    color: var(--color-7);
+}
+.color-e{
+    color: var(--color-9);
+}
+
+.bg-color-a{
+    background: var(--color-3);
+}
+
+.bg-color-b{
+    background: var(--color-6);
+}
+
+.bg-color-c{
+    background: var(--color-1);
+}
+
+.bg-color-d{
+    background: var(--color-8);
+}
+
+.font-1{
+    font-family: var(--font-1);
+}
+.font-2{
+    font-family: var(--font-2);
+}
+.font-3{
+    font-family: var(--font-3);
+}
+.font-4{
+    font-family: var(--font-4);
+}
+.hov:hover{
+    color: var(--color-3);
+}
+
+.hov-1:hover{
+    color: var(--color-1);
+}
+
+@media only screen and (min-width: 300px) {
+    #bg-slide{
+        height: 110vh;
+    }
+    .logo{
+        margin-left: -34px;
+    }
+    .size-1{
+        font-size: var(--font-size-6);
+    }
+    .box{
+        height: 51px;
+        width: 51px;
+    }
+    .box-l{
+        /* height: 51px; */
+        width: 51px;
+    }
+    .proper{
+        column-gap: 20px;
+    }
+    .size-4{
+        font-size: var(--font-size-5);
+    }
+    .size-res{
+        font-size: var(--font-size-1);
+    }
+    
+}
+
+/* @media only screen and (min-width: 360px) {
+    .wid-res{
+        width: 200px;
+    }
+} */
+
+@media only screen and (min-width: 360px) {
+    #bg-slide{
+        height: 86vh;
+    }
+    .size-1{
+        font-size: var(--font-size-6);
+    }
+    .box{
+        height: 60px;
+        width: 60px;
+    }
+    .box-l{
+        /* height: 51px; */
+        width: 61px;
+    }
+    .proper{
+        column-gap: 20px;
+    }
+    .about-img{
+        width: 100%;
+        height: 200px;
+    }
+
+}
+
+@media only screen and (min-width: 370px) {
+    .box{
+        height: 62px;
+        width: 62px;
+    }
+    .proper{
+        column-gap: 20px;
+    }
+    .size-4{
+        font-size: var(--font-size-1);
+    }
+}
+
+@media only screen and (min-width: 390px) {
+   
+}
+
+@media only screen and (min-width: 399px) {
+   
+}
+
+@media only screen and (min-width: 400px) {
+    .box{
+        height: 72px;
+        width: 72px;
+    }
+    .box-l{
+        /* height: 51px; */
+        width: 72px;
+    }
+    .proper{
+        column-gap: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 430px) {}
+
+@media only screen and (min-width: 500px) {
+    #bg-slide{
+        height: 60vh;
+    }
+    .size-1{
+        font-size: var(--font-size-7);
+    }
+    .box{
+        height: 80px;
+        width: 80px;
+    }
+    .proper{
+        column-gap: 40px;
+    }
+    .size-4{
+        font-size: var(--font-size-6);
+    }
+    .about-img{
+        width: 100%;
+        height: 400px;
+    }
+    .size-res{
+        font-size: var(--font-size-8);
+    }
+}
+
+/* ------------ Extra small devices (phones, 600px and down) ------------ */
+
+@media only screen and (max-width: 600px) {}
+
+/* ------------ Small devices (portrait tablets and large phones, 600px and up) ------------ */
+@media only screen and (min-width: 600px) {
+    
+    
+}
+
+/* ------------ Medium devices (landscape tablets, 768px and up) ------------ *Thank you for your business! We look forward to working with you again. */
+
+@media only screen and (max-width: 700px) {
+    
+}
+
+@media only screen and (min-width: 700px) {
+    #bg-slide{
+        height: 92vh;
+    }
+    .size-1{
+        font-size: var(--font-size-8);
+    }
+    .box-l{
+        /* height: 51px; */
+        width: 80px;
+    }
+}
+
+
+@media only screen and (min-width: 766px) {
+    
+}
+
+@media only screen and (min-width: 769px) {
+   
+}
+
+@media only screen and (max-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {}
+
+@media only screen and (min-width: 992px) {
+    
+}
+@media only screen and (min-width: 1020px) {
+    #bg-slide{
+        height: 120vh;
+    }
+    .about-img{
+        width: 100%;
+        height: 450px;
+    }
+   
+}
+@media only screen and (min-width: 1030px) {
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (min-width: 1200px) {
+    #bg-slide{
+        height: 100vh;
+    }
+    .logo{
+        margin-left: 0px;
+    }
+    .box{
+        height: 90px;
+        width: 90px;
+    }
+    .proper{
+        column-gap: 40px;
+    }
+    .box-l{
+        /* height: 51px; */
+        width: 90px;
+    }
+}
+
+@media only screen and (min-width: 1300px) {}
+
+@media only screen and (min-width: 1500px) {}
+
+

@@ -128,6 +128,7 @@
     width: 100%;
     transition: 0.3s;
     font-family: var(--font-3);
+    cursor: pointer;
     /* border-radius: 5px; */
 }
 
@@ -282,4 +283,11 @@
 
 .article .context a:hover{
     color: var(--color-8);
+}
+
+.ticket{
+    height: 450px;
+    width: 100%;
+    background: var(--color-1);
+    box-shadow: 3px 5px 10px #1917168a;
 }

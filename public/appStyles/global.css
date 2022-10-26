@@ -380,7 +380,7 @@ html,body{
         column-gap: 20px;
         background: var(--color-1);
         box-shadow: 3px 5px 10px #1917168a;
-        width: 100%;
+        width: 90%;
         border-radius: 8px;
     }
     .left{

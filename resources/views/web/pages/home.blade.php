@@ -138,7 +138,7 @@
                 </div>
             </div>
             <div class="col-12">
-                <div class="row px-lg-5 mx-lg-2 mt-3">
+                <div class="row mt-3">
                     @for ($i = 0; $i < 3; $i++)
                         @include('web.elements.day-1')
                     @endfor
@@ -190,8 +190,8 @@
                     <span class="text-center size-4 color-b font-1" style="letter-spacing: 0.0001px">This Conference Is For You <span class="color-d">Buy Tickets Now!</span></span>
                 </div>
             </div>
-            <div class="col-12">
-                
+            <div class="col-12 swiper mySwiper px-2 px-md-3 px-lg-0 mt-4 mt-md-5">
+                @include('web.elements.tickets')
             </div>
         </div>
         {{-- <div class="row mt-4 mt-lg-5 mb-3 px-lg-5 mx-lg-2">

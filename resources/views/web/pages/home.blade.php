@@ -21,8 +21,7 @@
                             class="ri-coupon-2-fill"></i>&nbsp;&nbsp;Get Ticket</span>
                 </a>
                 <a href="#" class="anchor custom-btn d-flex justify-content-center align-items-center font-1">
-                    <span class="d-flex justify-content-center align-items-center"><i
-                            class="ri-user-star-fill"></i>&nbsp;&nbsp;Register</span>
+                    <span class="d-flex justify-content-center align-items-center"><i class="ri-map-2-fill"></i>&nbsp;&nbsp;Get Direction</span>
                 </a>
             </div>
             {{-- <div class="col-12 adjust">
@@ -65,9 +64,15 @@
                     <span class="h6">See about the event</span>
                     <span class="text-start size-4 color-b font-1" style="letter-spacing: 0.0001px">Conferences And
                         Organization <span class="color-d">Seminars</span></span>
-                    <span class="font-2 mt-4" style="font-weight: 700">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, exercitationem eos est nostrum deleniti porro, iusto voluptatibus explicabo possimus, distinctio molestiae. Doloremque hic, magni beatae non distinctio vero dignissimos? Similique, optio officiis! Similique fugiat dolore, eligendi a sunt ex non aspernatur nam, itaque minima laborum necessitatibus qui aperiam odio maxime natus amet quam consectetur ratione asperiores aut iste! Saepe pariatur commodi corporis laborum ab voluptas eaque autem error dolore, sit voluptatibus placeat, modi repellendus. Culpa eaque a iure eius voluptates. <a href="#"
-                        class="mt-3 d-flex justify-content-start align-items-center see">See More <i
-                            class="ri-arrow-right-line"></i></a></span>
+                    <span class="font-2 mt-4" style="font-weight: 700">Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Nam, exercitationem eos est nostrum deleniti porro, iusto voluptatibus explicabo possimus,
+                        distinctio molestiae. Doloremque hic, magni beatae non distinctio vero dignissimos? Similique, optio
+                        officiis! Similique fugiat dolore, eligendi a sunt ex non aspernatur nam, itaque minima laborum
+                        necessitatibus qui aperiam odio maxime natus amet quam consectetur ratione asperiores aut iste!
+                        Saepe pariatur commodi corporis laborum ab voluptas eaque autem error dolore, sit voluptatibus
+                        placeat, modi repellendus. Culpa eaque a iure eius voluptates. <a href="#"
+                            class="mt-3 d-flex justify-content-start align-items-center see">See More <i
+                                class="ri-arrow-right-line"></i></a></span>
                     <div class="row">
                         @include('web.elements.keyDetails')
                     </div>
@@ -93,7 +98,8 @@
             </div>
             <div class="col-12 ">
                 <div class="row px-lg-5 mx-lg-2">
-                    <div class="col-6 col-md-3 mt-1 d-flex justify-content-center align-items-center list active" data-filter="day-1" selected>
+                    <div class="col-6 col-md-3 mt-1 d-flex justify-content-center align-items-center list active"
+                        data-filter="day-1">
                         <div class="anchor day-hov p-3 mt-3 d-flex justify-content-center align-items-center">
                             <div class="d-flex flex-column text-center">
                                 MONDAY
@@ -101,7 +107,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-md-3 mt-1 d-flex justify-content-center align-items-center list" data-filter="day-2">
+                    <div class="col-6 col-md-3 mt-1 d-flex justify-content-center align-items-center list"
+                        data-filter="day-2">
                         <div class="anchor day-hov p-3 mt-3 d-flex justify-content-center align-items-center">
                             <div class="d-flex flex-column text-center">
                                 TUESDAY
@@ -109,7 +116,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-md-3 mt-1 d-flex justify-content-center align-items-center list" data-filter="day-3">
+                    <div class="col-6 col-md-3 mt-1 d-flex justify-content-center align-items-center list"
+                        data-filter="day-3">
                         <div class="anchor day-hov p-3 mt-3 d-flex justify-content-center align-items-center">
                             <div class="d-flex flex-column text-center">
                                 WEDNESDAY
@@ -117,7 +125,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-md-3 mt-1 d-flex justify-content-center align-items-center list" data-filter="day-4">
+                    <div class="col-6 col-md-3 mt-1 d-flex justify-content-center align-items-center list"
+                        data-filter="day-4">
                         <div class="anchor day-hov p-3 mt-3 d-flex justify-content-center align-items-center">
                             <div class="d-flex flex-column text-center">
                                 THURSDAY
@@ -144,4 +153,25 @@
                 </div>
             </div>
         </div>
+        <div class="row mt-4 mt-lg-5 mb-3 px-lg-5 mx-lg-2">
+            <div class="col-12 d-flex justify-content-center align-items-center">
+                <div class="text-center color-e d-flex flex-column">
+                    <span class="h6">Conference Speakers</span>
+                    <span class="text-center size-4 color-b font-1" style="letter-spacing: 0.0001px">Experience With The
+                        <span class="color-d">Knowledge Of Our Speakers</span>
+                    </span>
+                </div>
+            </div>
+            @include('web.elements.speakers')
+        </div>
+        {{-- <div class="row mt-4 mt-lg-5 mb-3 px-lg-5 mx-lg-2">
+            <div class="col-12 d-flex justify-content-center align-items-center">
+                <div class="text-center color-e d-flex flex-column">
+                    <span class="h6">Conference Organizers</span>
+                    <span class="text-center size-4 color-b font-1" style="letter-spacing: 0.0001px">Our Best Promoter
+                        <span class="color-d">And Sponsor</span>
+                    </span>
+                </div>
+            </div>
+        </div> --}}
     @endsection

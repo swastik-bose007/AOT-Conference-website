@@ -195,7 +195,9 @@ html,body{
         justify-content: flex-start;
         align-items: flex-start;
     }
-    
+    .expert{
+        height: 200px;
+    }
     
 }
 
@@ -359,7 +361,9 @@ html,body{
 @media only screen and (max-width: 992px) {}
 
 @media only screen and (min-width: 992px) {
-    
+    .expert{
+        height: 300px;
+    }
 }
 @media only screen and (min-width: 1020px) {
     #bg-slide{

@@ -39,17 +39,6 @@ for (let i = 0; i < list.length; i++) {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 // var swiper = new Swiper(".mySwiper", {
 //     slidesPerView: 1,
 //     spaceBetween: 10,

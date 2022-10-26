@@ -21,7 +21,8 @@
                             class="ri-coupon-2-fill"></i>&nbsp;&nbsp;Get Ticket</span>
                 </a>
                 <a href="#" class="anchor custom-btn d-flex justify-content-center align-items-center font-1">
-                    <span class="d-flex justify-content-center align-items-center"><i class="ri-map-2-fill"></i>&nbsp;&nbsp;Get Direction</span>
+                    <span class="d-flex justify-content-center align-items-center"><i
+                            class="ri-map-2-fill"></i>&nbsp;&nbsp;Direction</span>
                 </a>
             </div>
             {{-- <div class="col-12 adjust">
@@ -164,6 +165,35 @@
             </div>
             @include('web.elements.speakers')
         </div>
+        <hr class="my-5 px-3 px-md-5 mx-md-5">
+        <div class="row mt-4 mt-lg-3 mb-3 pxd">
+            <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center px-md-5">
+                <div class="color-e d-flex flex-column px-lg-4 mt-3 mt-md-0 ">
+                    <span class="h6">Our Blog Post</span>
+                    <span class="text-start size-4 color-b font-1" style="letter-spacing: 0.0001px">Get From Our <span class="color-d">News And Articles</span></span>
+                    <span class="font-2 mt-2 mt-md-4" style="font-weight: 700">Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Nam, exercitationem eos est nostrum deleniti porro, iusto voluptatibus explicabo possimus,
+                        distinctio molestiae. Doloremque hic, magni beatae non distinctio vero dignissimos? Similique, optio
+                        officiis! Similique.<a href="#"
+                            class="mt-3 d-flex justify-content-start align-items-center see">See More <i
+                                class="ri-arrow-right-line"></i></a></span>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 swiper mySwiper px-2 px-md-3 px-lg-0 mt-4 mt-md-5">
+                @include('web.elements.articles')
+            </div>
+        </div>
+        <div class="row mt-4 mt-lg-5 mb-3">
+            <div class="col-12 d-flex justify-content-center align-items-center px-md-5">
+                <div class="color-e text-center d-flex flex-column px-lg-4 mt-3 mt-md-0 ">
+                    <span class="h6 text-center">Secure Your Place Now</span>
+                    <span class="text-center size-4 color-b font-1" style="letter-spacing: 0.0001px">This Conference Is For You <span class="color-d">Buy Tickets Now!</span></span>
+                </div>
+            </div>
+            <div class="col-12">
+                
+            </div>
+        </div>
         {{-- <div class="row mt-4 mt-lg-5 mb-3 px-lg-5 mx-lg-2">
             <div class="col-12 d-flex justify-content-center align-items-center">
                 <div class="text-center color-e d-flex flex-column">
@@ -173,5 +203,12 @@
                     </span>
                 </div>
             </div>
+            @for ($i = 0; $i < 4; $i++)
+                <div class="col-6 col-md-3 p-3">
+                    <figure class="p-3 sponser">
+                        <img src="{{ url('public/appImages/sponser.png') }}" class="img-fluid">
+                    </figure>
+                </div>
+            @endfor
         </div> --}}
     @endsection

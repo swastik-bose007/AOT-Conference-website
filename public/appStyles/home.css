@@ -190,7 +190,7 @@
 .expert{
     border-radius: 8px;
     width: 100%;
-    
+    cursor: pointer;
     /* box-shadow: 3px 5px 10px #1917168a; */
 
 }
@@ -235,4 +235,51 @@
 
 .link:hover{
     color: var(--color-7);
+}
+
+.sponser{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sponser img{
+    height: 100%;
+    width: 100%;
+    /* object-fit: cover; */
+
+}
+
+.article{
+    height: 400px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.article img{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+    box-shadow: 3px 5px 10px #1917168a;
+    cursor: pointer;
+
+}
+
+.article .context{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: start;
+    flex-direction: column;
+    background: var(--color-1);
+    border-radius: 0 0 8px 8px;
+    box-shadow: 3px 5px 10px #1917168a;
+}
+
+.article .context a:hover{
+    color: var(--color-8);
 }

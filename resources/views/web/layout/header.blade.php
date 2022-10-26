@@ -27,6 +27,7 @@
                               <li><a class="dropdown-item color-b" href="#">Speakers</a></li>
                               <li><a class="dropdown-item color-b" href="#">Call for Paper</a></li>
                               <li><a class="dropdown-item color-b" href="#">Organizer</a></li>
+                              <li><a class="dropdown-item color-b" href="#">Accomodation</a></li>
                             </ul>
                           </div>
                     </li>

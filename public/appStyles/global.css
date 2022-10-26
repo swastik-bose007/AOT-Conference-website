@@ -315,6 +315,7 @@ html,body{
         align-items: flex-start;
     }
     
+    
 }
 
 /* ------------ Extra small devices (phones, 600px and down) ------------ */
@@ -384,6 +385,9 @@ html,body{
     }
     .left{
         width: 38%;
+    }
+    .pxd{
+        margin-right: 80px;
     }
 }
 @media only screen and (min-width: 1030px) {

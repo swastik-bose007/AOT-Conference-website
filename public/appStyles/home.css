@@ -122,8 +122,67 @@
 }
 
 .day-hov{
-    background: var(--color-1);
-    color: var(--color-4);
+    /* background: var(--color-1); */
+    /* color: var(--color-1); */
+    border-bottom: 2px solid var(--color-1);
     width: 100%;
+    transition: 0.3s;
+    font-family: var(--font-3);
+    /* border-radius: 5px; */
+}
+
+/* .day-hov:hover{
+    color: var(--color-7);
+} */
+
+
+
+.left, .mid{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+
+
+.avatar-2{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: -22px;
+    margin-left: 20px;
+    background: var(--color-5);
+}
+
+.features{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    justify-content: center;
+}
+
+.more{
+    margin-left: -20px;
+    border: 2px solid var(--color-1);
+}
+
+.padd{
+    padding-right: 60px;
+}
+
+.view-btn{
+    background: var(--color-3);
     border-radius: 5px;
+    box-shadow: 3px 5px 10px #ffbb0037;
+
+}
+
+.list.active{
+    color: var(--color-7);
+}
+
+.event.hide{
+    display: none;
+    visibility: hidden;
+    position: absolute;
 }

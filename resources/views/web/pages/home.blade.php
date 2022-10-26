@@ -92,27 +92,55 @@
                 </div>
             </div>
             <div class="col-12 ">
-                <div class="row px-md-5 mx-md-2">
-                    <div class="col-6 col-md-3 mt-1 d-flex justify-content-center align-items-center">
-                        <a href="#" class="anchor day-hov p-3 mt-3 d-flex justify-content-center align-items-center">
-                            DAY 1
-                        </a>
+                <div class="row px-lg-5 mx-lg-2">
+                    <div class="col-6 col-md-3 mt-1 d-flex justify-content-center align-items-center list active" data-filter="day-1" selected>
+                        <div class="anchor day-hov p-3 mt-3 d-flex justify-content-center align-items-center">
+                            <div class="d-flex flex-column text-center">
+                                MONDAY
+                                <span class="color-e size-6">Oct 26, 2023</span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-6 col-md-3 mt-1 d-flex justify-content-center align-items-center">
-                        <a href="#" class="anchor day-hov p-3 mt-3 d-flex justify-content-center align-items-center">
-                            DAY 1
-                        </a>
+                    <div class="col-6 col-md-3 mt-1 d-flex justify-content-center align-items-center list" data-filter="day-2">
+                        <div class="anchor day-hov p-3 mt-3 d-flex justify-content-center align-items-center">
+                            <div class="d-flex flex-column text-center">
+                                TUESDAY
+                                <span class="color-e size-6">Oct 27, 2023</span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-6 col-md-3 mt-1 d-flex justify-content-center align-items-center">
-                        <a href="#" class="anchor day-hov p-3 mt-3 d-flex justify-content-center align-items-center">
-                            DAY 1
-                        </a>
+                    <div class="col-6 col-md-3 mt-1 d-flex justify-content-center align-items-center list" data-filter="day-3">
+                        <div class="anchor day-hov p-3 mt-3 d-flex justify-content-center align-items-center">
+                            <div class="d-flex flex-column text-center">
+                                WEDNESDAY
+                                <span class="color-e size-6">Oct 28, 2023</span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-6 col-md-3 mt-1 d-flex justify-content-center align-items-center">
-                        <a href="#" class="anchor day-hov p-3 mt-3 d-flex justify-content-center align-items-center">
-                            DAY 1
-                        </a>
+                    <div class="col-6 col-md-3 mt-1 d-flex justify-content-center align-items-center list" data-filter="day-4">
+                        <div class="anchor day-hov p-3 mt-3 d-flex justify-content-center align-items-center">
+                            <div class="d-flex flex-column text-center">
+                                THURSDAY
+                                <span class="color-e size-6">Oct 29, 2023</span>
+                            </div>
+                        </div>
                     </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="row px-lg-5 mx-lg-2 mt-3">
+                    @for ($i = 0; $i < 3; $i++)
+                        @include('web.elements.day-1')
+                    @endfor
+                    @for ($i = 0; $i < 3; $i++)
+                        @include('web.elements.day-2')
+                    @endfor
+                    @for ($i = 0; $i < 3; $i++)
+                        @include('web.elements.day-3')
+                    @endfor
+                    @for ($i = 0; $i < 3; $i++)
+                        @include('web.elements.day-4')
+                    @endfor
                 </div>
             </div>
         </div>

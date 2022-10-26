@@ -34,6 +34,7 @@ html,body{
     --font-size-11: 6rem;
     --font-size-12: 10rem;
     --font-size-13: 13px;
+    --font-size-14: 12px;
 
     /* ------------ COLORS ------------- */
     --color-1: #191716;
@@ -86,6 +87,9 @@ html,body{
 .size-6{
     font-size: var(--font-size-13);
 }
+.size-7{
+    font-size: var(--font-size-14);
+}
 .color-a{
     color: var(--color-6);
 }
@@ -103,7 +107,12 @@ html,body{
 .color-e{
     color: var(--color-9);
 }
-
+.color-f{
+    color: var(--color-3);
+}
+.color-g{
+    color: var(--color-8);
+}
 .bg-color-a{
     background: var(--color-3);
 }
@@ -167,6 +176,26 @@ html,body{
     .size-res{
         font-size: var(--font-size-1);
     }
+    .dynamic{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        background: var(--color-1);
+        box-shadow: 3px 5px 10px #1917168a;
+        width: 100%;
+        border-radius: 8px;
+    }
+    .left{
+        width: 100%;
+    }
+    .all-avatars{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    
     
 }
 
@@ -263,6 +292,27 @@ html,body{
     .size-res{
         font-size: var(--font-size-8);
     }
+    .dynamic{
+        display: flex;
+        flex-direction: row;
+        column-gap: 20px;
+        background: var(--color-1);
+        box-shadow: 3px 5px 10px #1917168a;
+        width: 100%;
+        border-radius: 8px;
+    }
+    .left{
+        width: 90%;
+    }
+    .all-avatars{
+        display: flex;
+        flex-direction: row;
+        column-gap: 30px;
+        row-gap: unset;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
 }
 
 /* ------------ Extra small devices (phones, 600px and down) ------------ */
@@ -319,7 +369,18 @@ html,body{
         width: 100%;
         height: 450px;
     }
-   
+    .dynamic{
+        display: flex;
+        flex-direction: row;
+        column-gap: 20px;
+        background: var(--color-1);
+        box-shadow: 3px 5px 10px #1917168a;
+        width: 100%;
+        border-radius: 8px;
+    }
+    .left{
+        width: 38%;
+    }
 }
 @media only screen and (min-width: 1030px) {
     

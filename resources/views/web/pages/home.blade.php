@@ -100,17 +100,17 @@
                     </div>
                     <div class="col-6 col-md-3 mt-1 d-flex justify-content-center align-items-center">
                         <a href="#" class="anchor day-hov p-3 mt-3 d-flex justify-content-center align-items-center">
-                            DAY 2
+                            DAY 1
                         </a>
                     </div>
                     <div class="col-6 col-md-3 mt-1 d-flex justify-content-center align-items-center">
                         <a href="#" class="anchor day-hov p-3 mt-3 d-flex justify-content-center align-items-center">
-                            DAY 3
+                            DAY 1
                         </a>
                     </div>
                     <div class="col-6 col-md-3 mt-1 d-flex justify-content-center align-items-center">
                         <a href="#" class="anchor day-hov p-3 mt-3 d-flex justify-content-center align-items-center">
-                            DAY 4
+                            DAY 1
                         </a>
                     </div>
                 </div>

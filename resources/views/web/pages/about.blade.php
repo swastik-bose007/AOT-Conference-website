@@ -10,11 +10,6 @@
                     ORGANIZATION <span class="text-warning">SEMINARS</span></span><br>
                 <span class="color-c font-2">See about the event</span>
             </div>
-            {{-- <div class="col-12 px-3 px-md-5">
-            <div class="mt-3 mt-md-5">
-                @include('web.elements.counter')
-            </div>
-        </div> --}}
             <div class="col-12 col-lg-7 mt-5 px-3 px-md-5 d-flex justify-content-start align-items-center">
                 <a href="#" class="anchor custom-btn d-flex justify-content-center align-items-center font-1">
                     <span class="d-flex justify-content-center align-items-center"><i
@@ -31,9 +26,6 @@
         <div class="row mt-4 mt-lg-5 mb-3">
             <div class="col-12 d-flex justify-content-center align-items-center px-md-5">
                 <div class="color-e d-flex flex-column px-lg-4">
-                    <span class="h6">See about the event</span>
-                    <span class="text-start size-4 color-b font-1" style="letter-spacing: 0.0001px">Conferences And
-                        Organization <span class="color-d">Seminars</span></span>
                     <span class="font-2 mt-4" style="font-weight: 700">Lorem, ipsum dolor sit amet consectetur adipisicing
                         elit. Nam, exercitationem eos est nostrum deleniti porro, iusto voluptatibus explicabo possimus,
                         distinctio molestiae. Doloremque hic, magni beatae non distinctio vero dignissimos? Similique, optio

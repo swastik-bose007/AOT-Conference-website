@@ -28,7 +28,7 @@
                         Swastik Bose
                     </figcaption>
                 </figure>
-                <a href="#" class="anchor font-1 view-btn py-2">
+                <a href="{{ url('/all-events/event') }}" class="anchor font-1 view-btn py-2">
                     <span class="d-flex justify-content-center align-items-center px-3">View Details&nbsp;&nbsp;<i class="ri-arrow-right-line"></i>
                     </span>
                 </a>

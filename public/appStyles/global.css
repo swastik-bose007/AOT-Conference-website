@@ -49,13 +49,13 @@ html,body{
     --color-10: #2c2827;
 }
 
-/* #pre-Loader{
-    background: white url('../webImages/loader.gif') no-repeat center center;
+#pre-Loader{
+    background: white url('../appImages/loader.gif') no-repeat center center;
     height: 100vh;
     width: 100%;
     position: fixed;
     z-index: 100;
-} */
+}
 
 #bg-slide{
     background: url('../appImages/slide-1.jpg');
@@ -191,6 +191,15 @@ html,body{
         width: 100%;
         border-radius: 8px;
     }
+    .dynamicx{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        /* background: var(--color-1);
+        box-shadow: 3px 5px 10px #1917168a; */
+        width: 100%;
+        border-radius: 8px;
+    }
     .left{
         width: 100%;
     }
@@ -207,7 +216,10 @@ html,body{
     .expertx{
         height: 500px;
     }
-    
+    .single{
+        height: 300px;
+        width: 80%;
+    }
     
 }
 
@@ -315,6 +327,15 @@ html,body{
         width: 100%;
         border-radius: 8px;
     }
+    .dynamicx{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        /* background: var(--color-1);
+        box-shadow: 3px 5px 10px #1917168a; */
+        width: 100%;
+        border-radius: 8px;
+    }
     .left{
         width: 90%;
     }
@@ -335,6 +356,10 @@ html,body{
     }
     .map{
         padding-right: 30px;
+    }
+    .single{
+        height: 500px;
+        width: 80%;
     }
     
 }
@@ -391,6 +416,10 @@ html,body{
         position: absolute;
         display: none;
     }
+    .single{
+        height: 400px;
+        width: 100%;
+    }
     
 }
 @media only screen and (min-width: 1020px) {
@@ -407,6 +436,15 @@ html,body{
         column-gap: 20px;
         background: var(--color-1);
         box-shadow: 3px 5px 10px #1917168a;
+        width: 90%;
+        border-radius: 8px;
+    }
+    .dynamicx{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        /* background: var(--color-1); */
+        /* box-shadow: 3px 5px 10px #1917168a; */
         width: 90%;
         border-radius: 8px;
     }

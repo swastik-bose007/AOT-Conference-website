@@ -26,3 +26,4 @@ Route::prefix('/all-blogs')->group(function (){
 });
 Route::get('/contact-us', [AppControllers\AppController::class, 'contact']);
 Route::get('/accomodation', [AppControllers\AppController::class, 'accomodation']);
+Route::get('/allTickets', [AppControllers\AppController::class, 'allTickets']);

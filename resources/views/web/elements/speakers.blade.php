@@ -13,7 +13,7 @@
                     <a href="#" class="link mx-2 d-flex justify-content-center align-items-center">
                         <i class="ri-mail-line"></i>
                     </a>
-                    <a href="#" class="link mx-2 d-flex justify-content-center align-items-center">
+                    <a href="{{ url('/all-speakers/speaker') }}" class="link mx-2 d-flex justify-content-center align-items-center">
                         <i class="bi bi-info"></i>
                     </a>
                 </div>

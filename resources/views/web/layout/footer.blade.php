@@ -2,13 +2,8 @@
     <div class="row  bg-color-c pt-5">
         <div class="col-12 col-lg-6 px-md-5 foot-alg">
             <span class="size-4 color-a font-1">International Conference 2023</span>
-            <span class="font-2 color-c">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae earum
-                adipisci dolore saepe harum culpa dicta voluptatibus commodi sint sunt aut libero, odit architecto
-                maiores ducimus, porro sapiente eligendi repellat ratione iusto. Sint aperiam pariatur ipsam
-                consequuntur nostrum aliquam deserunt, quos quae facere ab voluptas et quod id ad. Architecto libero hic
-                adipisci, sequi dolores minus tenetur explicabo fugiat ipsa eos, pariatur vero quam exercitationem
-                eveniet sed similique voluptas dolorem. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Accusamus, ut.</span>
+            <span class="font-2 color-c">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ipsa sunt nobis eveniet id. Porro laudantium quidem perspiciatis magnam ab provident ratione maxime quia dolores est unde doloribus maiores commodi architecto, quam iure facere autem, neque quibusdam velit. Sunt assumenda voluptates, porro dignissimos ut minus tempore quam iusto odit, amet facere eligendi. Cum ex voluptatum, dicta laboriosam accusantium dignissimos libero, maxime cupiditate eum natus nam similique eligendi quaerat sint molestiae enim soluta velit ea fugiat est tempora aliquid! Consequuntur, fuga.</span>
+            <a href="{{ url('/allTickets') }}" class="color-f d-flex justify-content-center align-items-center anchor">Book Tickets <i class="ri-arrow-right-s-line"></i></a>
         </div>
         <div class="col-12 col-md-6 col-lg-3 pt-2 pt-lg-0 page">
             <span class="size-4 color-a font-1">Pages</span>

@@ -24,6 +24,7 @@ const newyear = new Date().getFullYear();
 
 document.getElementById('year').innerHTML = newyear;
 
-$(window).on("load",function(){
-    $(".loader-wrapper").fadeOut("slow");
+var loader = document.getElementById('pre-Loader');
+window.addEventListener("load",function(){
+    loader.style.display = "none";
 });

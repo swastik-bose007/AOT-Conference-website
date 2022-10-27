@@ -43,4 +43,7 @@ class AppController extends Controller
     public function accomodation(){
         return view('web.pages.accomodation');
     }
+    public function allTickets(){
+        return view('web.pages.allTickets');
+    }
 }

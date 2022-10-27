@@ -103,6 +103,15 @@
     object-fit: cover;
 }
 
+.about-imgx img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 3px 5px 10px #1917168a;
+    /* filter: brightness(30%); */
+    object-fit: cover;
+}
+
 .caption{
     top: 30%;
     text-align: center;
@@ -229,6 +238,10 @@
     transform: scale(1.1);
 }
 
+.expert-res:hover .bshd{
+    transform: scale(1.1);
+}
+
 .social{
     display: flex;
     justify-content: center;
@@ -247,6 +260,21 @@
 }
 
 .link:hover{
+    color: var(--color-8);
+}
+
+.linkx{
+    height: 60px;
+    width: 60px;
+    background: var(--color-1);
+    border-radius: 50%;
+    box-shadow: 3px 5px 10px #1917168a;
+    transition: 0.3s;
+    text-decoration: none;
+    color: var(--color-3);
+}
+
+.linkx:hover{
     color: var(--color-8);
 }
 
@@ -367,4 +395,9 @@
     justify-content: flex-start;
     align-items: flex-start;
     /* text-align: justify; */
+}
+
+.single img{
+    height: 80%;
+    width: 80%;
 }

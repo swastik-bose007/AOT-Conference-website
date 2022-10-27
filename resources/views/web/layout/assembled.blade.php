@@ -19,10 +19,10 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-    <link rel="stylesheet" href="{{ url('public/appStyles/global.css') }}">
-    <link rel="stylesheet" href="{{ url('public/appStyles/header.css') }}">
-    <link rel="stylesheet" href="{{ url('public/appStyles/home.css') }}">
-    <link rel="stylesheet" href="{{ url('public/appStyles/footer.css') }}">
+    <link rel="stylesheet" href="{{ url('appStyles/global.css') }}">
+    <link rel="stylesheet" href="{{ url('appStyles/header.css') }}">
+    <link rel="stylesheet" href="{{ url('appStyles/home.css') }}">
+    <link rel="stylesheet" href="{{ url('appStyles/footer.css') }}">
     {{-- ------------------------------------------------------------------- --}}
     {{-- SWIPER SLIDER-CDN --}}
     {{-- ------------------------------------------------------------------- --}}

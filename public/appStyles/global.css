@@ -202,7 +202,7 @@ html,body{
         align-items: flex-start;
     }
     .expert{
-        height: 200px;
+        height: 250px;
     }
     .expertx{
         height: 500px;
@@ -336,7 +336,7 @@ html,body{
     .map{
         padding-right: 30px;
     }
-
+    
 }
 
 /* ------------ Extra small devices (phones, 600px and down) ------------ */
@@ -384,7 +384,7 @@ html,body{
 
 @media only screen and (min-width: 992px) {
     .expert{
-        height: 300px;
+        height: 400px;
     }
     .navigation{
         visibility: hidden;
@@ -421,7 +421,7 @@ html,body{
         margin-left: 60px;
     }
     .expertx{
-        height: 300px;
+        height: 400px;
     }
 }
 

@@ -172,8 +172,10 @@
             <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center px-md-5">
                 <div class="color-e d-flex flex-column px-lg-4 mt-3 mt-md-0 ">
                     <span class="h6">Our Blog Post</span>
-                    <span class="text-start size-4 color-b font-1" style="letter-spacing: 0.0001px">Get From Our <span class="color-d">News And Articles</span></span>
-                    <span class="font-2 mt-2 mt-md-4" style="font-weight: 700">Lorem, ipsum dolor sit amet consectetur adipisicing
+                    <span class="text-start size-4 color-b font-1" style="letter-spacing: 0.0001px">Get From Our <span
+                            class="color-d">News And Articles</span></span>
+                    <span class="font-2 mt-2 mt-md-4" style="font-weight: 700">Lorem, ipsum dolor sit amet consectetur
+                        adipisicing
                         elit. Nam, exercitationem eos est nostrum deleniti porro, iusto voluptatibus explicabo possimus,
                         distinctio molestiae. Doloremque hic, magni beatae non distinctio vero dignissimos? Similique, optio
                         officiis! Similique.<a href="#"
@@ -182,14 +184,24 @@
                 </div>
             </div>
             <div class="col-12 col-lg-6 swiper mySwiper px-2 px-md-3 px-lg-0 mt-4 mt-md-5">
-                @include('web.elements.articles')
+                <div class="swiper-wrapper">
+                    @for ($i = 0; $i < 4; $i++)
+                        <div class="swiper-slide">
+                            @include('web.elements.articles')
+                        </div>
+                    @endfor
+                </div>
+                <div class="swiper-button-next text-warning"></div>
+                <div class="swiper-button-prev text-warning"></div>
+                <div class="swiper-pagination"></div>
             </div>
         </div>
         <div class="row mt-4 mt-lg-5 mb-3 pxdd">
             <div class="col-12 d-flex justify-content-center align-items-center px-md-5">
                 <div class="color-e text-center d-flex flex-column px-lg-4 mt-3 mt-md-0 ">
                     <span class="h6 text-center">Secure Your Place Now</span>
-                    <span class="text-center size-4 color-b font-1" style="letter-spacing: 0.0001px">This Conference Is For You <span class="color-d">Buy Tickets Now!</span></span>
+                    <span class="text-center size-4 color-b font-1" style="letter-spacing: 0.0001px">This Conference Is
+                        For You <span class="color-d">Buy Tickets Now!</span></span>
                 </div>
             </div>
             <div class="col-12 swiper mySwiper-2 px-2 mt-4 mt-md-5">
@@ -208,9 +220,12 @@
             <div class="col-12 col-md-6 text-start d-flex flex-column">
                 <div class="organizer mt-3">
                     <span class="size-4 color-b font-4">Academy of Technology</span>
-                    <span class="font-2 color-e" style="font-weight: 700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus voluptatem omnis totam quisquam dolorum doloremque, illum beatae placeat eveniet? Tenetur officia illo similique officiis consectetur, dolores consequatur itaque labore quibusdam expedita excepturi nihil minima ad et quasi error a repellendus deleniti voluptatum totam? Velit odio culpa veniam. Totam, repudiandae eaque?
-                        <a href="#"
-                            class="mt-3 d-flex justify-content-start align-items-center see">See More <i
+                    <span class="font-2 color-e" style="font-weight: 700">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Accusamus voluptatem omnis totam quisquam dolorum doloremque, illum beatae placeat
+                        eveniet? Tenetur officia illo similique officiis consectetur, dolores consequatur itaque labore
+                        quibusdam expedita excepturi nihil minima ad et quasi error a repellendus deleniti voluptatum totam?
+                        Velit odio culpa veniam. Totam, repudiandae eaque?
+                        <a href="#" class="mt-3 d-flex justify-content-start align-items-center see">See More <i
                                 class="ri-arrow-right-line"></i></a></span>
                     </span>
                 </div>

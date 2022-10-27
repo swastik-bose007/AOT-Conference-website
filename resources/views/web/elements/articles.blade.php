@@ -1,6 +1,6 @@
-<div class="swiper-wrapper">
-    @for ($i = 0; $i < 4; $i++)
-        <div class="swiper-slide">
+
+  
+        
             <figure class="article">
                 <img src="{{ url('public/appImages/slide-1.jpg') }}" class="img-fluid">
                 <figcaption class="context px-4 pt-1">
@@ -12,9 +12,6 @@
                         class="ri-arrow-right-line"></i></a>
                 </figcaption>
             </figure>
-        </div>
-    @endfor
-</div>
-<div class="swiper-button-next text-warning"></div>
-<div class="swiper-button-prev text-warning"></div>
-<div class="swiper-pagination"></div>
+        
+    
+

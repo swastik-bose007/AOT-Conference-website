@@ -46,7 +46,7 @@
             <div class="col-12 mx-0 px-0">
                 @yield('mid-section')
             </div>
-            <div class="col-12">
+            <div class="col-12 ">
                 @include('web.layout.footer')
             </div>
         </div>
@@ -59,10 +59,11 @@
     </script>
     <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
     <script src="{{ url('public/appScripts/global.js') }}"></script>
+    <script src="{{ url('public/appScripts/filter.js') }}"></script>
     {{-- ------------------------------------------------------------------- --}}
     {{-- SWIPER SLIDER SCRIPTS --}}
     {{-- ------------------------------------------------------------------- --}}
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <script src="{{ url('public/appScripts/filter.js') }}"></script>
+    <script src="{{ url('public/appScripts/slider.js') }}"></script>
 </body>
 </html>

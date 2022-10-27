@@ -198,6 +198,9 @@ html,body{
     .expert{
         height: 200px;
     }
+    .expertx{
+        height: 500px;
+    }
     
 }
 
@@ -315,7 +318,9 @@ html,body{
         align-items: flex-start;
     }
     
-    
+    .expertx{
+        height: 100px;
+    }
 }
 
 /* ------------ Extra small devices (phones, 600px and down) ------------ */
@@ -365,6 +370,8 @@ html,body{
     .expert{
         height: 300px;
     }
+    
+    
 }
 @media only screen and (min-width: 1020px) {
     #bg-slide{
@@ -389,7 +396,15 @@ html,body{
     .pxd{
         margin-right: 80px;
     }
+    .pxdd{
+        margin-right: 60px;
+        margin-left: 60px;
+    }
+    .expertx{
+        height: 300px;
+    }
 }
+
 @media only screen and (min-width: 1030px) {
     
 }

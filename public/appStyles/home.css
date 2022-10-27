@@ -74,7 +74,7 @@
     transition: 0.3s;
 }
 .see:hover{
-    color: var(--color-8);
+    color: var(--color-7);
 }
 
 .round{
@@ -196,6 +196,14 @@
 
 }
 
+.expertx{
+    border-radius: 8px;
+    width: 100%;
+    cursor: pointer;
+    /* box-shadow: 3px 5px 10px #1917168a; */
+
+}
+
 .wrap{
     overflow: hidden;
     border-radius: 8px;
@@ -214,6 +222,10 @@
 }
 
 .expert:hover .bshd{
+    transform: scale(1.1);
+}
+
+.expertx:hover .bshd{
     transform: scale(1.1);
 }
 
@@ -239,7 +251,7 @@
 }
 
 .sponser{
-    height: 100px;
+    /* height: 100px; */
     width: 100%;
     display: flex;
     justify-content: center;
@@ -247,7 +259,7 @@
 }
 
 .sponser img{
-    height: 100%;
+    /* height: 100%; */
     width: 100%;
     /* object-fit: cover; */
 
@@ -288,6 +300,71 @@
 .ticket{
     height: 450px;
     width: 100%;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
     background: var(--color-1);
     box-shadow: 3px 5px 10px #1917168a;
+}
+
+.label{
+    height: 80px;
+    width: 70%;
+    background: var(--color-8);
+    box-shadow: 3px 5px 10px #ffbb0037;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-5);
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 16%;
+    border-radius: 8px;
+}
+
+.price{
+    font-size: var(--font-size-7);
+    color: var(--color-3);
+}
+
+.perks{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    color: var(--color-6);
+    font-family: var(--font-2);
+}
+
+.buy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-3);
+    height: 50px;
+    width: 70%;
+    border-radius: 5px;
+    box-shadow: 3px 5px 10px #ffbb0037;
+    text-decoration: none;
+    color: var(--color-1);
+    transition: 0.3s;
+    font-family: var(--font-1);
+    font-weight: 700;
+}
+
+.buy:hover{
+    color: var(--color-1);
+    background: var(--color-8);
+}
+
+.organizer{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* text-align: justify; */
 }

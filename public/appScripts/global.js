@@ -16,3 +16,14 @@ var f = setInterval(function(){
     document.getElementById('seconds').innerHTML = seconds;
 
 },1000);
+
+// ------------------------------------------------------------------
+//  Footer
+// ------------------------------------------------------------------
+const newyear = new Date().getFullYear();
+
+document.getElementById('year').innerHTML = newyear;
+
+$(window).on("load",function(){
+    $(".loader-wrapper").fadeOut("slow");
+});

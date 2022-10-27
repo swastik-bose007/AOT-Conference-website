@@ -46,6 +46,7 @@ html,body{
     --color-7: #5e71ff;
     --color-8: #aeb8fe;
     --color-9: #7b7052;
+    --color-10: #2c2827;
 }
 
 /* #pre-Loader{
@@ -129,6 +130,10 @@ html,body{
     background: var(--color-8);
 }
 
+.bg-color-e{
+    background: var(--color-10);
+}
+
 .font-1{
     font-family: var(--font-1);
 }
@@ -202,6 +207,7 @@ html,body{
         height: 500px;
     }
     
+    
 }
 
 /* @media only screen and (min-width: 360px) {
@@ -246,6 +252,7 @@ html,body{
     .size-4{
         font-size: var(--font-size-1);
     }
+    
 }
 
 @media only screen and (min-width: 390px) {
@@ -268,6 +275,7 @@ html,body{
     .proper{
         column-gap: 20px;
     }
+    
 
 }
 
@@ -321,6 +329,13 @@ html,body{
     .expertx{
         height: 100px;
     }
+    .page{
+        padding-left: 50px;
+    }
+    .map{
+        padding-right: 30px;
+    }
+
 }
 
 /* ------------ Extra small devices (phones, 600px and down) ------------ */

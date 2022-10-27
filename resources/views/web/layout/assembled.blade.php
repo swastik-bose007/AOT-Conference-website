@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="{{ url('public/appStyles/global.css') }}">
     <link rel="stylesheet" href="{{ url('public/appStyles/header.css') }}">
     <link rel="stylesheet" href="{{ url('public/appStyles/home.css') }}">
-
+    <link rel="stylesheet" href="{{ url('public/appStyles/footer.css') }}">
     {{-- ------------------------------------------------------------------- --}}
     {{-- SWIPER SLIDER-CDN --}}
     {{-- ------------------------------------------------------------------- --}}
@@ -41,12 +41,12 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid ">
         <div class="row">
             <div class="col-12 mx-0 px-0">
                 @yield('mid-section')
             </div>
-            <div class="col-12 ">
+            <div class="col-12 px-0 mx-0 ">
                 @include('web.layout.footer')
             </div>
         </div>

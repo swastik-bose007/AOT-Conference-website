@@ -3,7 +3,7 @@
         <div class="swiper-slide">
             <figure class="expertx">
                 <div class="wrap">
-                    <img src="{{ url('public/appImages/speaker.jpg') }}" class="img-fluid bshd">
+                    <img src="{{ url('appImages/speaker.jpg') }}" class="img-fluid bshd">
                 </div>
                 <figcaption class="text-center mt-3">
                     <span class="color-b fonot-1">Swastik Bose</span>

@@ -11,7 +11,7 @@
     {{-- ------------------------------------------------------------------- --}}
     {{-- ICON --}}
     {{-- ------------------------------------------------------------------- --}}
-    <link rel="icon" href="{{ url('public/appImages/ic-logo-ta.png') }}">
+    <link rel="icon" href="{{ url('appImages/ic-logo-ta.png') }}">
     {{-- ------------------------------------------------------------------- --}}
     {{-- STYLES --}}
     {{-- ------------------------------------------------------------------- --}}
@@ -19,10 +19,10 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-    <link rel="stylesheet" href="{{ url('public/appStyles/global.css') }}">
-    <link rel="stylesheet" href="{{ url('public/appStyles/header.css') }}">
-    <link rel="stylesheet" href="{{ url('public/appStyles/home.css') }}">
-    <link rel="stylesheet" href="{{ url('public/appStyles/footer.css') }}">
+    <link rel="stylesheet" href="{{ url('appStyles/global.css') }}">
+    <link rel="stylesheet" href="{{ url('appStyles/header.css') }}">
+    <link rel="stylesheet" href="{{ url('appStyles/home.css') }}">
+    <link rel="stylesheet" href="{{ url('appStyles/footer.css') }}">
     {{-- ------------------------------------------------------------------- --}}
     {{-- SWIPER SLIDER-CDN --}}
     {{-- ------------------------------------------------------------------- --}}
@@ -59,12 +59,12 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
     <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
-    <script src="{{ url('public/appScripts/global.js') }}"></script>
-    <script src="{{ url('public/appScripts/filter.js') }}"></script>
+    <script src="{{ url('appScripts/global.js') }}"></script>
+    <script src="{{ url('appScripts/filter.js') }}"></script>
     {{-- ------------------------------------------------------------------- --}}
     {{-- SWIPER SLIDER SCRIPTS --}}
     {{-- ------------------------------------------------------------------- --}}
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <script src="{{ url('public/appScripts/slider.js') }}"></script>
+    <script src="{{ url('appScripts/slider.js') }}"></script>
 </body>
 </html>

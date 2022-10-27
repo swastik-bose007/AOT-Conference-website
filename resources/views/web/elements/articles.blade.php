@@ -1,5 +1,5 @@
 <figure class="article">
-    <img src="{{ url('public/appImages/slide-1.jpg') }}" class="img-fluid">
+    <img src="{{ url('appImages/slide-1.jpg') }}" class="img-fluid">
     <figcaption class="context px-4 pt-1">
         <span class="color-a font-1 size-3 text-start">IOT in modern Technology
             <br>

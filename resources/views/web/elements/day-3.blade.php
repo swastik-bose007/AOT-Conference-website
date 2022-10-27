@@ -23,7 +23,7 @@
             <p class="color-c  font-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis debitis recusandae odit harum exercitationem eum ipsum ea placeat, et obcaecati excepturi laboriosam quae sit saepe, laborum distinctio sequi! Nobis, nulla?</p>
             <div class="mt-3 all-avatars padd">
                 <figure class="features">
-                    <img src="{{ url('public/appImages/speaker.jpg') }}" class="img-fluid avatar-2">
+                    <img src="{{ url('appImages/speaker.jpg') }}" class="img-fluid avatar-2">
                     <figcaption class="color-g">
                         Swastik Bose
                     </figcaption>

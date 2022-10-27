@@ -39,7 +39,7 @@
             </div>
             {{-- <div class="col-12 px-lg-5 mt-5">
                 <figure class="about-img card">
-                    <img src="{{ url('public/appImages/slide-1.jpg') }}" class="img-fluid">
+                    <img src="{{ url('appImages/slide-1.jpg') }}" class="img-fluid">
                     <figcaption class="carousel-caption caption">
                         <span class="font-3 size-res over-cap">CONFERENCE</span><br>
                         <span class="font-2 size-2">international conference 2023</span>

@@ -13,7 +13,7 @@
             </div>
             <div class="col-12 col-lg-4 px-md-4 mt-md-5 pt-3">
                 <figure class="single">
-                    <img src="{{ url('public/appImages/speaker.jpg') }}" class="img-fluid bshd">
+                    <img src="{{ url('appImages/speaker.jpg') }}" class="img-fluid bshd">
                 </figure>
             </div>
         </div>

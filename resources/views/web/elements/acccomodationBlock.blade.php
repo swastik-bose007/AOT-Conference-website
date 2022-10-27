@@ -8,7 +8,7 @@
         </div>
         <div class="col-12 px-lg-4 mb-3">
             <figure class="about-img card">
-                <img src="{{ url('public/appImages/slide-1.jpg') }}" class="img-fluid">
+                <img src="{{ url('appImages/slide-1.jpg') }}" class="img-fluid">
                 <figcaption class="carousel-caption caption">
                     <span class="font-3 size-res over-cap">GUEST HOUSE</span><br>
                     <span class="font-2 size-2">international conference 2023</span>

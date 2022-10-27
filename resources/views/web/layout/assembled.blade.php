@@ -59,12 +59,12 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
     <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
-    <script src="{{ url('appScripts/global.js') }}"></script>
-    <script src="{{ url('appScripts/filter.js') }}"></script>
+    <script src="{{ secure_asset('appScripts/global.js') }}"></script>
+    <script src="{{ secure_asset('appScripts/filter.js') }}"></script>
     {{-- ------------------------------------------------------------------- --}}
     {{-- SWIPER SLIDER SCRIPTS --}}
     {{-- ------------------------------------------------------------------- --}}
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <script src="{{ url('appScripts/slider.js') }}"></script>
+    <script src="{{ secure_asset('appScripts/slider.js') }}"></script>
 </body>
 </html>

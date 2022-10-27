@@ -99,7 +99,7 @@
             </div>
             <div class="col-12 ">
                 <div class="row px-lg-5 mx-lg-2">
-                    <div class="col-6 col-md-3 mt-1 d-flex justify-content-center align-items-center list active"
+                    <div class="col-6 col-md-3 mt-1 d-flex justify-content-center align-items-center list active list1"
                         data-filter="day-1">
                         <div class="anchor day-hov p-3 mt-3 d-flex justify-content-center align-items-center">
                             <div class="d-flex flex-column text-center">

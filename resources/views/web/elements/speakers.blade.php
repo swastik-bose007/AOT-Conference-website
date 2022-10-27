@@ -1,6 +1,5 @@
-@for ($i = 0; $i < 4; $i++)
     <div class="col-6 col-md-3 p-3 mt-3 mt-md-4 mb-3 mb-md-5">
-        <figure class="expert">
+        <figure class="expert mb-3 mb-md-5">
             <div class="wrap">
                 <img src="{{ url('public/appImages/speaker.jpg') }}" class="img-fluid bshd">
             </div>
@@ -20,4 +19,3 @@
             </figcaption>
         </figure>
     </div>
-@endfor

@@ -163,7 +163,9 @@
                     </span>
                 </div>
             </div>
-            @include('web.elements.speakers')
+            @for ($i = 0; $i < 4; $i++)
+                @include('web.elements.speakers')
+            @endfor
         </div>
         <hr class="my-5 px-3 px-md-5 mx-md-5">
         <div class="row mt-4 mt-lg-3 mb-3 pxd">

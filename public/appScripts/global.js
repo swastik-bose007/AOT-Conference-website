@@ -23,7 +23,9 @@ var f = setInterval(function(){
 const newyear = new Date().getFullYear();
 
 document.getElementById('year').innerHTML = newyear;
-
+// ------------------------------------------------------------------
+//  loader
+// ------------------------------------------------------------------
 var loader = document.getElementById('pre-Loader');
 window.addEventListener("load",function(){
     loader.style.display = "none";

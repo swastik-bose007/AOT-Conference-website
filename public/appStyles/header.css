@@ -15,10 +15,8 @@
     box-shadow: 3px 5px 10px #ffbb0037;
 }
 
-/* .navigation{
-    inset: 0 0 0 0;
-    position: fixed;
-    background: var(--color-1);
-    width: 80%;
-    height: 200vh;
-} */
+.head-list{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}

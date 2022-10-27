@@ -33,7 +33,7 @@
     <div id="pre-Loader"></div>
     <div class="container-fluid" id="bg-slide">
         <div class="row nav-strip ">
-            <div class="col-12 mx-0 px-0" style="height: 10px">
+            <div class="col-12 mx-0 px-0" style="height: 10px;">
                 @include('web.layout.header')
             </div>
             <div class="col-12 mx-0 px-0">

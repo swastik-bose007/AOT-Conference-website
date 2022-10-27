@@ -20,5 +20,9 @@ Route::prefix('/all-speakers')->group(function (){
 });
 Route::get('/call-for-paper', [AppControllers\AppController::class, 'callForPaper']);
 Route::get('/organizer', [AppControllers\AppController::class, 'organizer']);
+Route::prefix('/all-blogs')->group(function (){
+    Route::get('/', [AppControllers\AppController::class, 'allBlogs']);
+    Route::get('/blog', [AppControllers\AppController::class, 'singleBlog']);
+});
 Route::get('/contact-us', [AppControllers\AppController::class, 'contact']);
-Route::get('/register', [AppControllers\AppController::class, 'register']);
+Route::get('/accomodation', [AppControllers\AppController::class, 'accomodation']);

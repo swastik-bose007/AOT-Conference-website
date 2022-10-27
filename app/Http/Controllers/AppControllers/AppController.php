@@ -31,10 +31,16 @@ class AppController extends Controller
     public function organizer(){
         return view('web.pages.organizer');
     }
+    public function allBlogs(){
+        return view('web.pages.allBlogs');
+    }
+    public function singleBlog(){
+        return view('web.pages.singleBlog');
+    }
     public function contact(){
         return view('web.pages.contact');
     }
-    public function register(){
-        return view('web.pages.registerMember');
+    public function accomodation(){
+        return view('web.pages.accomodation');
     }
 }

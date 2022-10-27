@@ -91,6 +91,7 @@ html,body{
 .size-7{
     font-size: var(--font-size-14);
 }
+
 .color-a{
     color: var(--color-6);
 }
@@ -385,7 +386,11 @@ html,body{
     .expert{
         height: 300px;
     }
-    
+    .navigation{
+        visibility: hidden;
+        position: absolute;
+        display: none;
+    }
     
 }
 @media only screen and (min-width: 1020px) {

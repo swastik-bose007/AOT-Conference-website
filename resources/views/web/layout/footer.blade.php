@@ -30,16 +30,16 @@
             </div>
         </div>
         <div class="col-12 foot-list up-pad pb-4">
-            <a href="#" class="foot-social mx-2">
+            <a href="https://www.linkedin.com/company/student-s-chapter-of-iei-ece-academy-of-technology/" class="foot-social mx-2">
                 <i class="ri-linkedin-fill p-3 bg-color-hov"></i>
             </a>
-            <a href="#" class="foot-social mx-2">
+            <a href="https://twitter.com/IeiEce?t=O0w4dUffK0Zm2RIg5fsdAg&s=08" class="foot-social mx-2">
                 <i class="ri-twitter-fill p-3 bg-color-hov"></i>
             </a>
-            <a href="#" class="foot-social mx-2">
+            <a href="https://www.facebook.com/sceceaot/" class="foot-social mx-2">
                 <i class="ri-facebook-fill p-3 bg-color-hov"></i>
             </a>
-            <a href="#" class="foot-social mx-2">
+            <a href="mailto: ece.student.chapter@gmail.com" class="foot-social mx-2">
                 <i class="ri-mail-line p-3 bg-color-hov"></i>
             </a>
         </div>

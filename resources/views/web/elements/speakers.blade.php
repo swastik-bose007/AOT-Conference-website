@@ -7,10 +7,10 @@
                 <span class="color-b fonot-1">Swastik Bose</span><br>
                 <span class="color-b fonot-2 size-5">Ast. Proffesor at AOT </span>
                 <div class="social mt-2">
-                    <a href="#" class="link mx-2 d-flex justify-content-center align-items-center">
+                    <a href="https://www.linkedin.com/company/student-s-chapter-of-iei-ece-academy-of-technology/" class="link mx-2 d-flex justify-content-center align-items-center">
                         <i class="ri-linkedin-fill"></i>
                     </a>
-                    <a href="#" class="link mx-2 d-flex justify-content-center align-items-center">
+                    <a href="mailto: ece.student.chapter@gmail.com" class="link mx-2 d-flex justify-content-center align-items-center">
                         <i class="ri-mail-line"></i>
                     </a>
                     <a href="{{ url('/all-speakers/speaker') }}" class="link mx-2 d-flex justify-content-center align-items-center">

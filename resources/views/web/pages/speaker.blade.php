@@ -24,10 +24,10 @@
                 <div class="color-e d-flex flex-column px-lg-4">
                     <span class="font-2 mt-4" style="font-weight: 700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, libero. Iure cum aliquid et perspiciatis pariatur debitis, repudiandae omnis harum quasi ducimus quod quia in numquam rerum asperiores? Rem aperiam accusantium non! Ab eaque quidem corporis itaque eius officiis fuga officia facere consequuntur qui veritatis assumenda, dolorum voluptate exercitationem inventore ratione dolorem? Quod cumque quas nisi provident eos quidem, aut doloribus. Asperiores aliquid quis nihil aperiam aliquam suscipit sequi ad velit a vitae et, placeat maiores deleniti quas consequatur! Officia at blanditiis corporis culpa inventore ab provident vel? Expedita iusto illo distinctio non reiciendis sequi exercitationem. Necessitatibus sit debitis ipsum?
                         <div class="social mt-4">
-                            <a href="#" class="linkx mx-2 d-flex justify-content-center align-items-center">
+                            <a href="https://www.linkedin.com/company/student-s-chapter-of-iei-ece-academy-of-technology/" class="linkx mx-2 d-flex justify-content-center align-items-center">
                                 <i class="ri-linkedin-fill"></i>
                             </a>
-                            <a href="#" class="linkx mx-2 d-flex justify-content-center align-items-center">
+                            <a href="mailto: ece.student.chapter@gmail.com" class="linkx mx-2 d-flex justify-content-center align-items-center">
                                 <i class="ri-mail-line"></i>
                             </a>
                             <a href="{{ url('/all-speakers/speaker') }}" class="linkx mx-2 d-flex justify-content-center align-items-center">

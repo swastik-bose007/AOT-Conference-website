@@ -37,7 +37,7 @@
                                 class="ri-arrow-right-s-line color-8"></i>Contact</span></a>
                 </div>
             </div>
-            <div class="col-12 head-list up-pad px-4">
+            <div class="col-12 head-list px-4 up-pad page">
                 <a href="#" class="foot-social mx-2">
                     <i class="ri-linkedin-fill p-3 bg-color-hov"></i>
                 </a>

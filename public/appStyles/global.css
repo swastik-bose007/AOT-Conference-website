@@ -51,7 +51,7 @@ html,body{
 
 #pre-Loader{
     background: white url('../appImages/loader.gif') no-repeat center center;
-    height: 100%;
+    height: 100vh;
     width: 100%;
     position: fixed;
     z-index: 100;
@@ -352,7 +352,7 @@ html,body{
         height: 100px;
     }
     .page{
-        padding-left: 70px;
+        padding-left: 100px;
     }
     .map{
         padding-right: 30px;

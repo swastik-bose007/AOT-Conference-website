@@ -8,15 +8,15 @@
         <div class="col-12 col-md-6 col-lg-3 pt-2 pt-lg-0 page">
             <span class="size-4 color-a font-1">Pages</span>
             <div class="foot-alg mt-3">
-                <a href="#" class="foot-link font-2"><span class="foot-list"><i
+                <a href="{{ url('/about') }}" class="foot-link font-2"><span class="foot-list"><i
                             class="ri-arrow-right-s-line color-8"></i>Details</span></a>
-                <a href="#" class="foot-link font-2"><span class="foot-list"><i
+                <a href="{{ url('/all-speakers') }}" class="foot-link font-2"><span class="foot-list"><i
                             class="ri-arrow-right-s-line color-8"></i>Speakers</span></a>
-                <a href="#" class="foot-link font-2"><span class="foot-list"><i
+                <a href="{{ url('/call-for-paper') }}" class="foot-link font-2"><span class="foot-list"><i
                             class="ri-arrow-right-s-line color-8"></i>Call for Paper</span></a>
-                <a href="#" class="foot-link font-2"><span class="foot-list"><i
+                <a href="{{ url('/organizer') }}" class="foot-link font-2"><span class="foot-list"><i
                             class="ri-arrow-right-s-line color-8"></i>Organizer</span></a>
-                <a href="#" class="foot-link font-2"><span class="foot-list"><i
+                <a href="{{ url('/accomodation') }}" class="foot-link font-2"><span class="foot-list"><i
                             class="ri-arrow-right-s-line color-8"></i>Accomodation</span></a>
             </div>
         </div>
@@ -45,7 +45,7 @@
         </div>
         <div class="col-12 bg-color-e p-4 d-flex justify-content-center align-items-center text-center color-a font-2">
             ©<span id="year"></span>&nbsp;Copyright:&nbsp;&nbsp;
-            <a class="font-2 anchor" href="#">ic2023.com</a>
+            <a class="font-2 anchor" href="#">https://icaot2023.herokuapp.com/</a>
         </div>
     </div>
 </footer>

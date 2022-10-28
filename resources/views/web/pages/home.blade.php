@@ -72,7 +72,7 @@
                         officiis! Similique fugiat dolore, eligendi a sunt ex non aspernatur nam, itaque minima laborum
                         necessitatibus qui aperiam odio maxime natus amet quam consectetur ratione asperiores aut iste!
                         Saepe pariatur commodi corporis laborum ab voluptas eaque autem error dolore, sit voluptatibus
-                        placeat, modi repellendus. Culpa eaque a iure eius voluptates. <a href="#"
+                        placeat, modi repellendus. Culpa eaque a iure eius voluptates. <a href="{{ url('/about') }}"
                             class="mt-3 d-flex justify-content-start align-items-center see">See More <i
                                 class="ri-arrow-right-line"></i></a></span>
                     <div class="row">
@@ -179,7 +179,7 @@
                         adipisicing
                         elit. Nam, exercitationem eos est nostrum deleniti porro, iusto voluptatibus explicabo possimus,
                         distinctio molestiae. Doloremque hic, magni beatae non distinctio vero dignissimos? Similique, optio
-                        officiis! Similique.<a href="#"
+                        officiis! Similique.<a href="{{ url('/all-blogs') }}"
                             class="mt-3 d-flex justify-content-start align-items-center see">See More <i
                                 class="ri-arrow-right-line"></i></a></span>
                 </div>
@@ -235,7 +235,7 @@
                         eveniet? Tenetur officia illo similique officiis consectetur, dolores consequatur itaque labore
                         quibusdam expedita excepturi nihil minima ad et quasi error a repellendus deleniti voluptatum totam?
                         Velit odio culpa veniam. Totam, repudiandae eaque?
-                        <a href="#" class="mt-3 d-flex justify-content-start align-items-center see">See More <i
+                        <a href="{{ url('/organizer') }}" class="mt-3 d-flex justify-content-start align-items-center see">See More <i
                                 class="ri-arrow-right-line"></i></a></span>
                     </span>
                 </div>

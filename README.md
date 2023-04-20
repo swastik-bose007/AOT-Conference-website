@@ -1,5 +1,4 @@
 # AOT Conference Website
-### Website link
 - We build this conference website for the international conference which will be held at Academy of Technology. We have made our website user-friendly to make it easy for them to use. We have designer our website in a beautiful way compared to other websites to attract people’s eyes.
 
 # Stacks
